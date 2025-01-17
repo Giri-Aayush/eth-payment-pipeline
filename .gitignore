@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+lib/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+logs/
+*.log
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# TypeScript source maps
+*.js.map
+*.d.ts.map
+
+# Temporary files
+.tmp/
+.temp/
+*.tmp
+
+# Cache directories
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+
+# Optional: Production bundles if you're building for browser
+*.bundle.js
+*.bundle.js.map
+*.chunk.js
+*.chunk.js.map
+
+# Optional: Local development certificates
+*.pem
+*.cert
+*.key
